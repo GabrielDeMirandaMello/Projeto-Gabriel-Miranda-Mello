@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Merriweather Sans',  sans-serif;
+  background-color: #e5e5e5;
 }
 .header {
   background-color: #000407;
@@ -51,6 +52,38 @@ body {
   width: 280px;
   margin-left: 20%;
 }
+img {
+  width: 150px;
+  height: 150px;
+}
+.container.img {
+  height: 50vh;
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.texto1 {
+  flex-direction: column;
+  text-align: center;
+}
+.texto2 {
+  flex-direction: column;
+  text-align: center;
+}
+.texto3 {
+  flex-direction: column;
+  text-align: center;
+}
+h3 {
+  color: #E60054;
+}
+p {
+  width: 17vw;
+}
+
+.img1 {
+  background-image: url(/imgs/planet-earth_color.png);
+}
 .footer {
   background-color: #32B9CD;
   color: #fff;
@@ -58,19 +91,19 @@ body {
 .footer .container {
  display: flex;
  height: 150px;
- align-items: center;
+ align-items: flex-start;
  justify-content: center;
 }
 .card {
   background-color: #e5e5e5;
   color: #E60054;
-  width: 400px;
-  height: 350px;
+  width: 500px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  border-radius: 15px;
 }
 .card h2 {
   margin: 0;
@@ -82,17 +115,17 @@ form {
   width: 250px;
 }
 form label {
-  margin-top: 8px;
+  margin-top: 16px;
 }
 form input {
-  margin-top: 8px;
+  margin-top: 16px;
   outline: 3px solid #32B9CD;
   border: 0;
   padding: 8px;
   border-radius: 10px;
 }
 form button {
-  margin-top: 14px;
+  margin-top: 16px;
   background-color: #E60054;
   color: #fff;
   padding: 10px 15px;
@@ -102,4 +135,16 @@ form button {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
+}
+.cadastro button {
+    margin-top: 16px;
+    background-color: #E60054;
+    color: #fff;
+    padding: 10px 15px;
+    width: 150px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
 }
