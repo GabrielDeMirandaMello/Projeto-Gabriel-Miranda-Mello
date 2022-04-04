@@ -80,10 +80,6 @@ h3 {
 p {
   width: 17vw;
 }
-
-.img1 {
-  background-image: url(/imgs/planet-earth_color.png);
-}
 .footer {
   background-color: #32B9CD;
   color: #fff;
@@ -147,4 +143,18 @@ form button {
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 20px;
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #32B9CD;
+  border-radius: 30px;
 }
