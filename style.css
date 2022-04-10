@@ -145,7 +145,7 @@ form button {
     cursor: pointer;
 }
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
   background: #000000;
 }
 
